@@ -1,0 +1,407 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.emprendurismo_principaluno{
+    background-color: rgb(182, 25, 25);
+    width: 100%;
+    height: 250px;
+}
+
+.imagenuno{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 80px;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+
+h4{
+    position: relative;
+    top: -30px;
+    text-align: center;
+    color: white;
+}
+
+hr{
+    position: relative;
+    top: -40px;
+}
+.escudo{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 370px;
+}
+
+
+.buscar{
+    height: 30px;
+    position: relative;
+    bottom: 150px;
+    left: 1000px;
+    border-radius: 15px ;
+}
+
+.buscar:hover{
+    box-shadow: blue 15px;
+}
+
+.relleno{
+    background-color: gray;
+    width: 100%;
+    height: 40px;
+}
+
+#header{
+    
+    width: 1000px;
+   
+background-color: gray;
+}
+.nav{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+    left: 390px;
+}
+
+ul,ol{
+    list-style: none;
+    
+}
+
+.nav li a{
+   background-color: gray;
+   color: black;
+   text-decoration: none;
+   padding: 10px 15px;
+   display: block;
+   
+}
+
+.nav li a:hover{
+    background-color: rgb(2, 2, 36);
+    color: white;
+}
+.nav>li{
+    float: left;
+}
+
+.nav li ul{
+    display:none ;
+    position: absolute;
+    min-width: 100px;
+}
+
+.nav li:hover>ul{
+   display: block;
+   z-index: 3;
+}
+
+.poli{
+    position: relative;
+   
+    width: 700px;
+    height: 400px;
+}
+
+.slider-frame{
+    width: 700px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.slider-frame ul{
+    display: flex;
+   
+    padding: 0;
+    width: 400%;
+    animation: slide 15s infinite alternate ease-in-out;
+}
+
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img{
+    width: 100%;
+}
+
+@keyframes slide{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+
+
+}
+
+.noticiauno{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: solid 2px black;
+    bottom: 100px;
+    left: 220px;
+    z-index: 5;
+}
+
+.encabezadouno{
+    position: absolute;
+    width: 298px;
+    height: 150px;
+    border: solid 2px black;
+   
+    right: 0;
+    bottom: 0;
+    
+}
+.noticias{
+    display: inline;
+}
+.noticiados{
+   position: relative;
+   width: 300px;
+   height: 300px;
+   bottom: 300px;
+   border: solid 2px black;
+
+}
+
+.encabezadodos{
+    position: absolute;
+    width: 298px;
+    height: 150px;
+    border: solid 2px black;
+    right: 0;
+    bottom: 0;
+
+}
+
+.imagennoticiauno{
+    width: 295px;
+    height: 130px;
+    position: relative;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(182, 25, 25); ;
+}
+
+.linea{
+    position: relative
+    ;
+    top: -100px;
+    left: 210px;
+    width: 325px;
+}
+
+.titulofoter{
+    position: relative;
+    color: white;
+    left: 210px;
+    bottom: 100px;
+    width: 350px;
+}
+
+.foterr{
+    position: relative;
+    top: 10px;
+    left: 105px;
+}
+
+.subfoter{
+    position: relative;
+    color: white;
+    left: 270px;
+    bottom: 100px;
+    width: 200px;
+}
+
+.h2foter{
+    width: 500px;
+    
+    position: relative;
+    left: 700px;
+    bottom: 140px;
+}
+
+.datosfoter{
+    width: 500px;
+
+    position: relative;
+    left: 700px;
+    bottom: 800px;
+}
+
+.iconot{
+    font-size: 50px;
+    position: relative;
+    left: 300px;
+    bottom: 150px;
+    color:white ;
+}
+
+.icontd{
+    font-size: 50px;
+    position: relative;
+    left: 330px;
+    bottom: 150px;
+    color: white;
+}
+
+.noti{
+    color: black;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.post-list{
+    display: flex;
+    min-width: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.content{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    grid-gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.post-img-1{
+    background: url(pol.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: 2s;
+}
+.post-img-2{
+    background: url(expo.jpg.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: 2s;
+}
+.post-img-3{
+    background: url(centro.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: 2s;
+}
+
+.post{
+    box-shadow: 0 1px 6px 1px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    transition: 90ms;
+}
+
+.post:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 1px 14px 2px rgba(0, 0, 0, .15);
+}
+
+.post-header{
+    width: 100%;
+    
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+
+.post-body{
+    padding: 15px;
+    text-align: center;
+}
+
+.post-body span{
+    display:inline-block;
+    color:#999;
+    margin-bottom: 10px;
+}
+
+.post-body p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.post-body .post-link{
+    display: block;
+    text-decoration: none;
+    padding: 2px;
+    background-color: blue;
+    color: white;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, .1);
+    transition: .2s;
+}
+
+.post-body .post-link.hover{
+    background: #999;
+    box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, .2);
+    transform: translateY(-2px);
+
+}
+
+.maquinauno{
+    
+    opacity: 0;
+    transform: scale(1);
+}
+.maquinauno.visible{
+    position: relative;
+    text-align: center;
+    left: 480px;
+    bottom: 80px;
+    color: white;
+    opacity: 1;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 25ch;
+
+    animation:typing 2s steps(25),
+    blik.5s infinite step-end alternate ;
+    overflow: hidden;
+}
+
+
+
+@keyframes typing{
+    from{ width: 0;}
+}
+@keyframes blink{
+    50%{ border-color: transparent;}
+}
+
+
